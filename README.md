@@ -19,6 +19,8 @@ This project contains automated tests for the DRXSW website (www.drxsw.com) usin
 ## Installation
 
 1. Clone the repository:
+# https://github.com/NguyenMinhQuan1420234/QA_Automation_Challenge.git
+
 ```bash
 git clone [your-repository-url]
 cd playwright_projectWebScrapping
