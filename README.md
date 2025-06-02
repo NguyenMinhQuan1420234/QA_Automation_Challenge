@@ -45,7 +45,7 @@ npx playwright test
 
 To run specific test file:
 ```bash
-npx playwright test tests/drxsw.spec.ts
+npx playwright test tests/ui
 ```
 
 To run tests with UI mode:
