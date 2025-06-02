@@ -36,7 +36,11 @@ export default defineConfig({
   projects: [
     {
       name: 'chromium',
-      use: { ...devices['Desktop Chrome'] },
+      use: { ...devices['Desktop Chrome'],
+        contextOptions: {
+          permissions: ['clipboard-read', 'clipboard-write'], // Allow clipboard access
+       },
+      }
     },
 
     {
@@ -45,8 +49,8 @@ export default defineConfig({
     },
 
     {
-      name: 'webkit',
-      use: { ...devices['Desktop Safari'] },
+      name: 'edge',
+      use: { ...devices['Desktop Edge'], channel: 'msedge' },
     },
 
     /* Test against mobile viewports. */
