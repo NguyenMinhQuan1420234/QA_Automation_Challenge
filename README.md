@@ -1,6 +1,6 @@
-# DRXSW Website Testing Suite
+# orangehrmlive Website Testing Suite
 
-This project contains automated tests for the DRXSW website (www.drxsw.com) using Playwright.
+This project contains automated tests for the orangehrmlive website (www.orangehrmlive.com) using Playwright.
 
 ## Features
 
